@@ -6,7 +6,7 @@ export default function EffectUse() {
 
   useEffect(()=>{
     getData();
-  })
+  },[])
 
   function getData(){
     fetch('https://jsonplaceholder.typicode.com/posts')

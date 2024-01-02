@@ -2,6 +2,7 @@ import EffectUse from "./components/EffectUse"
 import CountUse from "./components/CountUse"
 import MemoUse from "./components/MemoUse"
 import {Helmet} from "react-helmet";
+import AxiosComponent from "./components/AxiosComponent";
 
 function App() {
 
@@ -13,13 +14,15 @@ function App() {
         <meta name="description" content="Helmet application" />
     </Helmet>
 
-    <h1>React - Redux</h1>
+    <h1>React - Redux -Axios</h1>
 
-    <MemoUse/>
+    <AxiosComponent/>
+
+    {/* <MemoUse/>
 
     <CountUse/>
 
-    <EffectUse/>
+    <EffectUse/> */}
 
 
     </>

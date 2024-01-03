@@ -30,7 +30,7 @@ function App() {
 
     <ToastContainer />
 
-    <h1>React - Redux -Axios</h1>
+    <h1>React - Redux -Axios - Practice</h1>
 
     <AxiosComponent/>
 
